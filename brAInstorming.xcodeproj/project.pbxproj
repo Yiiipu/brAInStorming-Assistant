@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2FC4C48129FC842D00202A40 /* brAInstormingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C48029FC842D00202A40 /* brAInstormingApp.swift */; };
-		2FC4C48329FC842D00202A40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C48229FC842D00202A40 /* ContentView.swift */; };
+		2FC4C48329FC842D00202A40 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C48229FC842D00202A40 /* ChatView.swift */; };
 		2FC4C48529FC842E00202A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC4C48429FC842E00202A40 /* Assets.xcassets */; };
 		2FC4C48829FC842E00202A40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC4C48729FC842E00202A40 /* Preview Assets.xcassets */; };
 		2FC4C49229FC842E00202A40 /* brAInstormingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C49129FC842E00202A40 /* brAInstormingTests.swift */; };
 		2FC4C49C29FC842E00202A40 /* brAInstormingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C49B29FC842E00202A40 /* brAInstormingUITests.swift */; };
 		2FC4C49E29FC842E00202A40 /* brAInstormingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C49D29FC842E00202A40 /* brAInstormingUITestsLaunchTests.swift */; };
+		2FC4C4AB29FC8A1D00202A40 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C4AA29FC8A1D00202A40 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		2FC4C47D29FC842D00202A40 /* brAInstorming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brAInstorming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC4C48029FC842D00202A40 /* brAInstormingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brAInstormingApp.swift; sourceTree = "<group>"; };
-		2FC4C48229FC842D00202A40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FC4C48229FC842D00202A40 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		2FC4C48429FC842E00202A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC4C48729FC842E00202A40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FC4C48D29FC842E00202A40 /* brAInstormingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brAInstormingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		2FC4C49729FC842E00202A40 /* brAInstormingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brAInstormingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC4C49B29FC842E00202A40 /* brAInstormingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brAInstormingUITests.swift; sourceTree = "<group>"; };
 		2FC4C49D29FC842E00202A40 /* brAInstormingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brAInstormingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FC4C4AA29FC8A1D00202A40 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				2FC4C48029FC842D00202A40 /* brAInstormingApp.swift */,
-				2FC4C48229FC842D00202A40 /* ContentView.swift */,
+				2FC4C4AA29FC8A1D00202A40 /* SettingView.swift */,
+				2FC4C48229FC842D00202A40 /* ChatView.swift */,
 				2FC4C48429FC842E00202A40 /* Assets.xcassets */,
 				2FC4C48629FC842E00202A40 /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC4C48329FC842D00202A40 /* ContentView.swift in Sources */,
+				2FC4C4AB29FC8A1D00202A40 /* SettingView.swift in Sources */,
+				2FC4C48329FC842D00202A40 /* ChatView.swift in Sources */,
 				2FC4C48129FC842D00202A40 /* brAInstormingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
